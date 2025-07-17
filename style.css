@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+/* Hero */
+#hero {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  padding: 80px 0;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+/* Section Umum */
+section {
+  width: 90%;
+  max-width: 1100px;
+  margin: 50px auto;
+}
+
+/* Profil */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Skill List */
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.skill-list li {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.skill-list li:hover {
+  background-color: #e65100;
+}
+
+/* Project, Education, Hobby, Testimoni */
+.project, .shcool, #hobby ul, #testimoni blockquote {
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+#hobby ul {
+  list-style: disc;
+  padding-left: 30px;
+}
+
+/* CV Button */
+.btn {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #cc5200;
+}
+
+/* Kontak */
+#contact i {
+  margin-right: 8px;
+  color: #ff6600;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-photo {
+    margin: 0 auto;
+  }
+
+  .skill-list {
+    justify-content: center;
+  }
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #1f1f1f;
+}
+
+body.dark-mode nav ul li a {
+  color: #e0e0e0;
+}
+
+body.dark-mode .btn {
+  background-color: #bb86fc;
+  color: black;
+}
+
+body.dark-mode .btn:hover {
+  background-color: #9c67df;
+}
+
+body.dark-mode .skill-list li {
+  background-color: #673ab7;
+}
+
+body.dark-mode .project,
+body.dark-mode .shcool,
+body.dark-mode blockquote {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 10px;
+}
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('Bd.JPG') center/cover no-repeat;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+#hero h2 {
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
