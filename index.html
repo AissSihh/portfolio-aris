@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Aiss</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>BIODATA</h1>
+      <ul>
+        <li><a href="#about">Profil</a></li>
+        <li><a href="#projects">Pengalaman</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#shcool">Pendidikan</a></li>
+        <li><a href="#hobby">Hobi</a></li>
+        <li><a href="#testimoni">Testimoni</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        <li><button id="darkModeToggle">🌓</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Hallo, Saya Aris</h2>
+  </section>
+
+  <section id="about">
+    <h2>Profil</h2>
+    <div class="about-container">
+      <img src="Aiss.PNG" alt="Foto Aris" class="profile-photo" />
+      <div>
+        <p>Nama: Aris Setiawan</p>
+        <p>TTL: Bandung, 14 Januari 2001</p>
+        <p>Jenis Kelamin: Laki-Laki</p>
+        <p>Agama: Islam</p>
+        <p>Alamat: Jln.in aja dulu Kota Bandung</p> 
+        <p>Kewarganegaraan: Indonesia</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Keahlian/Keterampilan</h2>
+    <div class="project">
+      <h3>Barista</h3>
+      <p>- Kagum Coffe</p>
+      <p>- Point Coffe</p>
+      <p>- Dapur unik</p>
+    </div>
+    <div class="project">
+      <h3>Joki Game</h3>
+      <p>- Mobile Legend</p>
+    </div>
+    <div class="project">
+      <h3>Bisnis</h3>
+      <p>- Futsal Sayana Terrace House</p>
+      <p>- STIMIK Coffe Shop</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skill</h2>
+    <ul class="skill-list">
+      <li>HTML</li>
+      <li>Microsoft Excel</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="shcool"> 
+    <h2>Pendidikan</h2>
+    <div class="shcool">
+      <h3>SD</h3>
+      <p>SD Negeri Pasir Impun 1 Kota Bandung</p>
+    </div>
+    <div class="shcool">
+      <h3>SMP</h3>
+      <p>SMP Negeri 53 Kota Bandung</p>
+    </div>  
+    <div class="shcool">
+      <h3>SMK</h3>
+      <p>SMK Merdeka Kota Bandung</p>
+    </div>
+    <div class="shcool">
+      <h3>Perguruan Tinggi</h3>
+      <p>S.Kom - Universitas Padjadjaran Kota Bandung</p>
+    </div>
+  </section>
+
+  <section id="hobby">
+    <h2>Hobi & Minat</h2>
+    <ul>
+      <li>Futsal</li>
+      <li>Ngopi dan meracik kopi</li>
+      <li>Game kompetitif</li>
+      <li>Bisnis kreatif</li>
+    </ul>
+  </section>
+
+  <section id="testimoni">
+    <h2>Testimoni</h2>
+    <blockquote>"Aris sangat teliti dan ramah dalam melayani pelanggan." – Manager Kagum Coffee</blockquote>
+    <blockquote>"Rank naik dengan cepat dan aman. Joki terpercaya!" – Client ML</blockquote>
+  </section>
+
+  <section id="cv">
+    <h2>Unduh CV</h2>
+    <a href="LIST RELEASE APRIL 2025.pdf" download class="btn">Download CV</a>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <p><i class="fa-solid fa-envelope"></i> Email: AissSihh@gmail.com</p>
+    <p><i class="fa-brands fa-whatsapp"></i> WhatsApp: +62 821-1805-5937</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aris Setiawan. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Dark mode toggle
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
